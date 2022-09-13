@@ -161,7 +161,7 @@ def main():
     # python assignment1/main.py dragon mc
 
     # Print a welcome message
-    print('Welcome to CompFab Alternative Assignment 1')
+    print('Welcome to Computational Design and Fabrication Class')
 
     # Get the mesh name and voxel size from command line arguments
     args = get_cmd_args()
