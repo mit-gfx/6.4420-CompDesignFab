@@ -387,7 +387,7 @@ class Voxelizer:
         with open(output_file_path, 'w') as f:
             # Write the bottom left position, voxel size, and grid dimensions
             f.write(f'{grid_bottom_left[0]} {grid_bottom_left[1]} {grid_bottom_left[2]} '
-                    f'{dx} {nx} {ny} {nz}\n')
+                    f'{dx} {nx - 1} {ny - 1} {nz - 1}\n')
 
             # Write the voxel grid
             for i in range(nx):
