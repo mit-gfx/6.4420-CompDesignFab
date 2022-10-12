@@ -5,7 +5,7 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RESULT_DIR = os.path.join(ROOT_DIR, 'data', 'assignment2', 'BBW', 'results')
 STD_DIR = os.path.join(ROOT_DIR, 'data', 'assignment2', 'BBW', 'std')
 
-testcases = ['cube_voxel', 'frame', 'bunny', 'spot', 'tyra']
+testcases = ['frame', 'bunny', 'spot', 'tyra']
 
 for testcase in testcases:
     exist = True
