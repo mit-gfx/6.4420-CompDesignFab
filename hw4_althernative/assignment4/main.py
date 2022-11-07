@@ -236,7 +236,7 @@ def main():
 
         # Test both linear and non-linear materials
         for material in (linear_material, neohookean_material):
-            test_fem(tet_mesh, material, test_force, cuboid_size)
+            test_fem(tet_mesh, material, test_force, test_cuboid_size)
 
     # Perform default testing with cuboids
     else:
